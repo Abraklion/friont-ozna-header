@@ -1,0 +1,57 @@
+
+.sUser {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 13px;
+}
+
+.sUser__item {
+
+}
+
+.sUser__info {
+  display: flex;
+  align-items: center;
+}
+
+.sUser__text {
+  margin: 0 5px 0 0;
+  padding-left: 22px;
+
+  text-transform: uppercase;
+
+  border-right: 1px solid rgba(#fff,0.1);
+
+  background-image: url('../img/account.svg');
+  background-position: left center;
+  background-size: 19px;
+  background-repeat: no-repeat;
+
+  b {
+    margin: 0 7px 0 5px;
+  }
+}
+
+.sUser__info-options{
+}
+
+.sUser__link{
+  color: #fff;
+
+  opacity: 0.9;
+
+  transition: opacity 0.1s ease;
+
+  &:hover {
+    opacity: 1;
+
+    text-decoration: none;
+  }
+}
+

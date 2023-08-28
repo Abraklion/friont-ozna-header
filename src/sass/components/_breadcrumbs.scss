@@ -1,0 +1,34 @@
+
+.sBreadcrumbs {
+  margin: 7px 0 13px 0;
+  padding: 0 8px;
+  list-style: none;
+
+  display: flex;
+  //column-gap: 20px;
+
+  font-size: 13px;
+
+  text-transform: uppercase;
+}
+
+.sBreadcrumbs__item {
+
+  &::after {
+    content: '/';
+
+    margin: 0 6px 0 4px;
+
+    opacity: 0.6;
+  }
+}
+
+.sBreadcrumbs__link {
+  text-decoration: underline;
+
+  color: rgba(#000, 0.6);
+
+  &:hover {
+    text-decoration: none;
+  }
+}

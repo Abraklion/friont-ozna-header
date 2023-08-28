@@ -1,0 +1,28 @@
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: #eeeeee;
+}
+
+.wrapper {
+  max-width: 1200px;
+
+  margin: 0 auto;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+.content{
+  margin-top: 10px;
+  padding: 10px 8px;
+
+  background-color: #fff;
+
+  height: 800px;
+
+  h3 {
+    margin-top: 0;
+  }
+}
